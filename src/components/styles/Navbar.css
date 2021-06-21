@@ -1,0 +1,29 @@
+.Navbar {
+  margin-left: 2em;
+}
+.Navbar ul {
+  min-width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  padding: 0 40px 0 40px;
+  list-style: none;
+}
+
+.Navbar a {
+  text-decoration: none;
+  width: 100%;
+  padding: 1em;
+  color: var(--white);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.Navbar .active {
+  color: var(--blue-primary);
+  font-weight: bold;
+}
