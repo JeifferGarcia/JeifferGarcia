@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import rickmorty from "../images/rickmorty.png";
 import "./styles/Card.css";
 
 class Card extends React.Component {
@@ -8,17 +7,15 @@ class Card extends React.Component {
     return (
       <Fragment>
         <div className='Card'>
-          <img src={rickmorty} alt='spa' />
-          <h3>SPA Vanilla JavaScript</h3>
+          <img src={this.props.img} alt={this.props.title} />
+          <h3>{this.props.title}</h3>
           <div>
-            <p>
-              spa creada con la api de Rick and morty, usando vanilla JavaScript
-            </p>
+            <p>{this.props.description}</p>
           </div>
           <div>
-            <Link className='btn' to='#'>
+            <a className='btn' target='__black' href={this.props.url}>
               ver
-            </Link>
+            </a>
           </div>
         </div>
       </Fragment>

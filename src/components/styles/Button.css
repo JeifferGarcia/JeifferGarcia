@@ -1,0 +1,19 @@
+.btn {
+  width: auto;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--blue-primary);
+  padding: 0.6em;
+  font-weight: bold;
+  margin-top: 2em;
+  border-radius: 5px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  transition: 100ms;
+}

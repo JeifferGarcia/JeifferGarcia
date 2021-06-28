@@ -5,6 +5,7 @@
   width: 100%;
   position: absolute;
   bottom: 0;
+  z-index: 0;
 }
 .Assets__Lines {
   grid-area: 1/1;
@@ -29,4 +30,14 @@
 .Assets__Point {
   grid-area: 2/4;
   justify-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .Assets img {
+    width: 50px;
+  }
+
+  .Assets__Point img {
+    width: 100px;
+  }
 }

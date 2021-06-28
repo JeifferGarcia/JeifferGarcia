@@ -26,7 +26,7 @@ class About extends React.Component {
             </p>
 
             <div className='About__btn'>
-              <Link className='btn' to='#'>
+              <Link className='About__btn--a btn' to='#'>
                 Descargar CV
               </Link>
             </div>

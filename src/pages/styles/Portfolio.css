@@ -2,6 +2,8 @@
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 2em;
+  position: relative;
+  z-index: 10;
 }
 
 .Portfolio h2 {
@@ -11,4 +13,5 @@
 .Portfolio__container_card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 0 10px;
 }

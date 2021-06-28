@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
 import Twitter from "../images/twitter.svg";
 import Github from "../images/github.svg";
 import Instagram from "../images/instagram.svg";
@@ -13,28 +12,28 @@ function Footer() {
         <nav>
           <ul className='Footer__Navbar'>
             <li>
-              <Link target='_blank' to='https://github.com/jeiffergarcia'>
+              <a target='_blank' href='https://github.com/jeiffergarcia'>
                 <img src={Github} alt='Github' />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 target='_blank'
-                to='https://www.linkedin.com/in/jeiffer-garcias-289032122/'>
+                href='https://www.linkedin.com/in/jeiffer-garcias-289032122/'>
                 <img src={Linkedin} alt='Linkedin' />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 target='_blank'
-                to='https://www.instagram.com/jeifferg/?hl=es-la'>
+                href='https://www.instagram.com/jeifferg/?hl=es-la'>
                 <img src={Instagram} alt='Instagram' />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link target='_blank' to='https://twitter.com/JheifferG'>
+              <a target='_blank' href='https://twitter.com/JheifferG'>
                 <img src={Twitter} alt='Twitter' />
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

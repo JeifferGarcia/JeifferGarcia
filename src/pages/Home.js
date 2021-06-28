@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import Button from "../components/Button";
 import "./styles/Home.css";
 
 class Home extends React.Component {
@@ -11,9 +11,7 @@ class Home extends React.Component {
             Hola, soy <br /> Jeiffer Garcia
           </h1>
           <h2>Desarrollador web Frontend</h2>
-          <Link className='Home_btn btn' to='/about'>
-            Sobre mí
-          </Link>
+          <Button text='Sobre Mi' />
         </div>
       </Fragment>
     );

@@ -8,8 +8,8 @@ function Layout(props) {
     <Fragment>
       <Header />
       {props.children}
-      <Assets />
       <Footer />
+      <Assets />
     </Fragment>
   );
 }

@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
 .Home h1 {
@@ -18,11 +20,12 @@
   font-weight: lighter;
 }
 
-.Home_btn {
-  display: block;
-  width: 50px;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: var(--blue-primary);
-  margin-top: 2em;
+@media screen and (max-width: 768px) {
+  .Home h1 {
+    font-size: 5em;
+  }
+
+  .Home h2 {
+    font-size: 1.5em;
+  }
 }
