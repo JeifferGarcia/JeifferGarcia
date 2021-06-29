@@ -20,12 +20,44 @@
   font-weight: lighter;
 }
 
+.Home__container-btn {
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .Home h1 {
+    font-size: 7em;
+    margin-top: 1em;
+  }
+
+  .Home h2 {
+    font-size: 2em;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .Home h1 {
     font-size: 5em;
+    margin-top: 0.5em;
   }
 
   .Home h2 {
     font-size: 1.5em;
+  }
+  .Home__container-btn {
+    margin-top: 1.5em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Home h1 {
+    font-size: 6em;
+  }
+
+  .Home h2 {
+    font-size: 2em;
+  }
+  .Home__container-btn {
+    margin-top: 2em;
   }
 }

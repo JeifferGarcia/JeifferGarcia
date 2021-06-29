@@ -7,6 +7,7 @@
   --blue: #3a4e7a;
   --white: #ffffff;
   --black: #000000;
+  --background: #202120;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   height: 100vh;
   overflow: hidden;
   color: var(--white);
-  /* background-color: var(--blue-primary); */
+  background-color: var(--background);
   background-image: url("./images/Cover.png");
   background-repeat: no-repeat;
   background-position: center;

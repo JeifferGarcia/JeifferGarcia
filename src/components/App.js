@@ -5,6 +5,7 @@ import Contact from "../pages/Contact";
 import Layout from "./Layout";
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
+import NoFound from "../pages/NoFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/' component={Home} />
+          <Route component={NoFound} />
         </Switch>
       </Layout>
     </BrowserRouter>

@@ -27,3 +27,21 @@
   align-items: center;
   color: var(--blue-primary);
 }
+
+@media screen and (max-width: 375px) {
+  .Footer__Navbar li a img {
+    width: 25px;
+  }
+  .Footer__copy p {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Footer__Navbar li a img {
+    width: 25px;
+  }
+  .Footer__copy p {
+    font-size: 0.7em;
+  }
+}

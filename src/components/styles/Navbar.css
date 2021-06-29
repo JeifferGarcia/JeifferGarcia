@@ -23,7 +23,21 @@ a:hover {
   text-decoration: underline;
 }
 
-.Navbar .active {
-  color: var(--blue-primary);
-  font-weight: bold;
+@media screen and (max-width: 375px) {
+  .Navbar {
+    display: none;
+  }
+  .Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .Menu ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  .Menu ul li {
+    margin-top: 10px;
+  }
 }

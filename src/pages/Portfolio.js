@@ -24,8 +24,6 @@ class About extends React.Component {
               img={platziBadges}
               description='App de Badges creada con React JS, React Router'
             />
-            <Card />
-            <footer></footer>
           </div>
         </div>
       </Fragment>

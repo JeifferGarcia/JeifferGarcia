@@ -6,7 +6,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <Fragment>
-        <nav className='Navbar'>
+        <nav className='Menu'>
           <ul>
             <li>
               <Link to='/'>Home</Link>
